@@ -1,0 +1,85 @@
+body{
+    background-color: #000;
+}
+
+header{
+    background-color: rgba(48, 50, 51, 1);
+    box-shadow: 0 0 50px black;
+}
+header nav{
+    align-items: center;
+}
+header nav .logo{
+    
+}
+header nav ul li a{
+    font-size: 20px;
+    cursor: pointer; 
+    color:  #73ac91;
+    padding: 10px;   
+    text-decoration: none;
+    margin: 10px;
+    transition: .2s;
+}
+
+
+header nav ul li a:hover{
+    color:#198754;
+    transition: 0.5s;
+}
+
+
+.section1{
+    background-image: url("../image/hacker-dark-hideout-kwtdda86wh4bbdj4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100vh;
+}
+
+
+.section1 .landing-description {
+    background-color: rgba(48, 50, 51, 0.4);
+}
+
+
+
+ .row-profil .profil:hover{
+    background:rgba(48, 50, 51, 1);
+    color: white;
+    cursor: pointer;
+    transition:.5s;
+}
+
+.row-profil div a{
+    background-color: #198754;
+    color:  white;
+}
+
+
+.section2{
+    overflow: hidden;
+   background-image:linear-gradient(75deg,#212221,#000);
+   text-align: justify;
+   transform: skewY(540px);
+   min-height:70vh;
+}
+
+.section2 img{
+    box-shadow: 0 0 220px black;
+}
+.container1{
+    background-color: #333;
+}
+
+.section3{
+ background-image: rgb(94, 28, 28);
+}
+
+
+@media screen and (max-width:1000px) {
+    section .landing-description{
+        margin: auto;
+        text-align: center;
+    }
+}
+
